@@ -1,6 +1,9 @@
 {
-  "type": "module",
   "name": "test",
+  "jest": {
+    "verbose": true
+  },
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

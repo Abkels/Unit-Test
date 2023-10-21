@@ -20,7 +20,7 @@ const getPeople = async () => {
     try {
         const getRequest = await fetch('https://swapi.dev/api/people');
         const data = await getRequest.json();
-        console.log(data);
+        // console.log(data); 
         return {
             count: data.count,
             results: data.results,
@@ -30,7 +30,11 @@ const getPeople = async () => {
     }
 };
 
-getPeople();
+// getPeople();
+
+module.exports = getPeople
+
+// writing the test for script2 we will have to remove the console.log(data) and the getPeople()
 
 
 
