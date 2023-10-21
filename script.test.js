@@ -33,9 +33,7 @@ describe('googleSearch', ()=> {
         expect(googleSearch('.com', dbMock).length).toEqual(3);
      })
     
-})
-
-
+});  
 
 
 //  we can group tests that are similar with 'describe"
